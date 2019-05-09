@@ -39,7 +39,7 @@ public class GUI {
 		northPanel.setLayout(new GridLayout());
 		northPanel.setPreferredSize(new Dimension(width,50));
 		
-		JLabel gameLabel = new JLabel("1024",SwingConstants.CENTER);
+		JLabel gameLabel = new JLabel("2048",SwingConstants.CENTER);
 		gameLabel.setFont(new Font("Serif",Font.BOLD,20));
 		
 		northPanel.add(gameLabel);
